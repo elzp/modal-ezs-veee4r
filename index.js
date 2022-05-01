@@ -6,10 +6,9 @@ const exit = document.querySelector('.fill-current');
 const button = document.querySelector('body>div>button');
 
 exit.addEventListener('click', () => {
-  modal.style.display = 'none';
+  modal.style.visibility = 'hidden';
 });
 
 button.addEventListener('click', () => {
-  modal.style.display = 'block';
-  modal.style.margin = 'auto';
+  modal.style.visibility = 'visible';
 });
